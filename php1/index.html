@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pineapple Order Form</title>
+  </head>
+  <body>
+    <form action="process.php" method="post">
+      Enter the number of pineapples:
+      <input type="text" name="quantity" required /><br />
+      Home Delivery: <input type="radio" name="hd" value="yes" required /> Yes
+      <input type="radio" name="hd" value="no" /> No <br />
+      Address:
+      <select name="address" required>
+        <option value="-1">Select City</option>
+        <option value="dhk">Dhaka</option>
+        <option value="ctg">Chittagong</option></select><br />
+      Tip: <input type="text" name="tip" required /><br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
