@@ -58,7 +58,7 @@ Performs 4 operations:
 
 ---
 
-## Summer Semester
+## Summer Semester  
 
 ### Question 2 — Movie Night Screen Calculator
 **Files:** `summer/phpSummer/index.html` → `summer/phpSummer/ans.php`
